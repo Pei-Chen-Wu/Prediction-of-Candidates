@@ -1,6 +1,11 @@
 # Prediction-of-Candidates
 ## Learning skills
-
+* DataFrame 資料處理
+* AlexNet
+* VGG
+* FaceNet
+* MTCNN
+* SVC
 
 ## 每週進度
 * 11/9 : 
