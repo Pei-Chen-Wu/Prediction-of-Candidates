@@ -6,6 +6,7 @@
 * FaceNet
 * MTCNN
 * SVC
+* factor_analyzer
 
 ## 每週進度
 * 11/9 : 
@@ -29,16 +30,32 @@
 * 11/30 :
   * 使用 FaceNet 開發人臉識別系統 example
 
+* 12/7 :
+  * 整理僅兩人競選
+  * 分析（連任 政治 性別....）
+  * factor_analyzer
+  * 使用 FaceNet 開發人臉識別系統（2人且連任拿掉）
+
+
 ## Data 說明
 * 103-All_concat.csv : 103年度里長全台縣市競選
 * 103photo_1024.csv : 103年度里長照片名稱與競選結果（長寬皆小於1024者）
 * 103-more_than_1_concat.csv ： 103年度里長全台縣市競選（競選人數超過一人）
+* 103-two_compare.csv : 103年度兩人競爭
+* facenet_train.csv ： 103年度兩人競爭且連任拿掉（欲丟入facenet model的data）
+* factor.csv ： 欲丟入 factor_analyzer 的text data
+* bfi.csv : factor_analyzer的範例data (28人格特質)
 其他依此類推
+
 
 ## Code 說明
 * Data processing.ipynb : 針對 raw text data 分析
 * Data processing 2.ipynb ： 針對照片進行分析
+* Data processing 3.ipynb ： 整理僅兩人競選 並分析
 * AlexNet.ipynb ： 單純照片與label輸入
 * VGG.ipynb : 單純照片與label輸入
-* FaceNet.ipynb : 使用 FaceNet 開發人臉識別系統 example (包含MTCNN,FaceNet,SVC) , 識別五位名人照片與名字配對
-  * Keras FaceNet 預訓練模型 (88 MB) 下載網址 ： https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn  
+* FaceNet.ipynb : 使用 FaceNet 開發人臉識別系統  (包含MTCNN,FaceNet,SVC) , 識別五位名人照片與名字配對
+  * example ： Keras FaceNet 預訓練模型 (88 MB) 下載網址 ： https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn  
+  * 後面為 facenet_train.csv facenet_test.csv 所得之照片分類
+* test_facenet.ipynb : 使用raw照片
+* factor_analyzer.ipynb ： 多因子特徵分析 （包含範例與 103資料factor.csv)
