@@ -58,4 +58,6 @@
   * example ： Keras FaceNet 預訓練模型 (88 MB) 下載網址 ： https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn  
   * 後面為 facenet_train.csv facenet_test.csv 所得之照片分類
 * test_facenet.ipynb : 使用raw照片
-* factor_analyzer.ipynb ： 多因子特徵分析 （包含範例與 103資料factor.csv)
+* factor_analyzer.ipynb ： 多因子特徵分析 
+ * 包含範例 https://vincentarelbundock.github.io/Rdatasets/datasets.html
+ * 103資料factor.csv
