@@ -1,12 +1,13 @@
 # Prediction-of-Candidates
 ## Learning skills
 * DataFrame 資料處理
-* AlexNet
-* VGG
-* FaceNet
-* MTCNN
-* SVC
-* factor_analyzer
+* 運用以下model:
+ * AlexNet
+ * VGG
+ * FaceNet
+ * MTCNN
+ * SVC
+ * factor_analyzer
 
 ## 每週進度
 * 11/9 : 
