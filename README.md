@@ -37,6 +37,23 @@
   * factor_analyzer
   * 使用 FaceNet 開發人臉識別系統（2人且連任拿掉）
 
+* 12/17 :
+  * 訓練分類器 （Text）
+    - 全加
+    - 連任
+    - 號碼
+    - ...
+  * AlexNet : 測試raw photo (2人一組且拿掉連任）
+ 
+* 12/21 :
+  * 107data探討
+    * 確認特徵與103一樣
+  * 斷詞資料庫
+    * LDA
+    * word2vec
+    * jieba (中國斷詞庫）
+    * ckip (台灣中研院)
+   
 
 ## Data 說明
 * 103-All_concat.csv : 103年度里長全台縣市競選
@@ -46,6 +63,8 @@
 * facenet_train.csv ： 103年度兩人競爭且連任拿掉（欲丟入facenet model的data）
 * factor.csv ： 欲丟入 factor_analyzer 的text data
 * bfi.csv : factor_analyzer的範例data (28人格特質)
+* 107factor_continue.csv : 107 text data factor(兩人競爭 包含連任)
+* 107factor_no_continue.csv ： 107 text data factor(兩人競爭 不包含連任)
 其他依此類推
 
 
@@ -62,3 +81,7 @@
 * factor_analyzer.ipynb ： 多因子特徵分析 
   * 包含範例 https://vincentarelbundock.github.io/Rdatasets/datasets.html
   * 103資料factor.csv
+* 分類器.ipynb : 將現有六特徵丟入分類器
+  * SVM(RBF)
+  * Multi-layer Perceptron (MLP)
+  * XGBoost
