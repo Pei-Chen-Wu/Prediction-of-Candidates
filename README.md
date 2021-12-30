@@ -87,3 +87,10 @@
   * SVM(RBF)
   * Multi-layer Perceptron (MLP)
   * XGBoost
+* 學歷處理.ipynb : 將學歷分為六大類
+  - 小學以下
+  - 國初中
+  - 高中高職
+  - 專科
+  - 大學
+  - 研究所以上
