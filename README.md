@@ -8,6 +8,8 @@
   * MTCNN
   * SVC
   * factor_analyzer
+  * BERT取文意向量
+
 
 ## 每週進度
 * 11/9 : 
@@ -79,6 +81,8 @@
 * bfi.csv : factor_analyzer的範例data (28人格特質)
 * 107factor_continue.csv : 107 text data factor(兩人競爭 包含連任)
 * 107factor_no_continue.csv ： 107 text data factor(兩人競爭 不包含連任)
+* 103_e_p.csv : 經歷和政見的pos與ner（詞性分類 與 實體辨識）
+
 其他依此類推
 
 
