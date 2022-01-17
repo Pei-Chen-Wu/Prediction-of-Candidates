@@ -1,14 +1,15 @@
 # Prediction-of-Candidates
 ## Learning skills
-* DataFrame 資料處理
-* 運用以下model:
-  * AlexNet
-  * VGG
-  * FaceNet
-  * MTCNN
-  * SVC
-  * factor_analyzer
-  * BERT取文意向量
+* DataFrame 資料前處理
+* 資料分析
+* AlexNet
+* VGG
+* FaceNet
+* MTCNN
+* SVC
+* factor_analyzer
+* 斷詞資料庫 ( word2vec , jieba , ckip)
+* BERT取文意向量
 
 
 ## 每週進度
