@@ -69,6 +69,11 @@
     * 介紹
     * 範例
     * 實作
+
+* 1/18 :
+  * BERT取文意嵌入實作
+  * 放入SVM分析
+
  
 
 ## Data 說明
@@ -103,10 +108,11 @@
   * SVM(RBF)
   * Multi-layer Perceptron (MLP)
   * XGBoost
-* 學歷處理.ipynb : 將學歷分為六大類
+* Education.ipynb : 將學歷分為六大類
   - 小學以下
   - 國初中
   - 高中高職
   - 專科
   - 大學
   - 研究所以上
+* experience_politics.ipynb : 透過BERT 取出經歷與政見文意
